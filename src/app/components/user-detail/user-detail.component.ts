@@ -49,7 +49,6 @@ export: any;
 
   ngOnInit(): void {
     this.username = this.route.snapshot.paramMap.get('username');
-    console.log(this.username);
     if (this.username) {
       this.userService.getUserByusername(this.username).subscribe(user => {
         this.user = user;
@@ -70,7 +69,7 @@ export: any;
   
 
   saveData() {
-    localStorage.setItem('user-data', JSON.stringify(this.user));
+    // localStorage.setItem('user-data', JSON.stringify(this.user));
   }
 
   dismiss() {
@@ -82,7 +81,10 @@ export: any;
   }
 
   currentUrl() {
-    return window.location.origin;
+    if (typeof window !== 'undefined') {
+      return window.location.origin;
+    }
+    return ''; 
   }
 
   saveChanges(attribute: any) {
