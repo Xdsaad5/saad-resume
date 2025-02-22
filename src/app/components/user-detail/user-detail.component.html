@@ -25,12 +25,12 @@
                     <mat-icon>call</mat-icon>
                     {{user.mobile}}
                 </button>
-                <a href="https://{{user.github}}" target="_blank">
+                <!-- <a href="https://{{user.github}}" target="_blank">
                     <button mat-button>
                         <img class="icon-img" [src]="'assets/icons/github.svg'" />
                         {{user.github}}
                     </button>
-                </a>
+                </a> -->
                 <button mat-button>
                     <mat-icon>pin_drop</mat-icon>
                     {{user.location}}
@@ -48,20 +48,20 @@
                         }
                     </div>
                 </div>
-                <div class="column">
-                    <mat-card-title class="resume-title">EDUCATION<div class="add-button noprint">
-                        </div>
-                    </mat-card-title>
-                    @for (acExp of user.academicExperiences; track $index) {
-                        <app-experience [experience]="acExp" [editmode]="editmode"></app-experience> 
-                    }
-                    <mat-card-title class="resume-title">SKILLS</mat-card-title>
-                    @for (skill of user.skills; track $index) {
-                        <app-skills [skill]="skill" [editmode]="editmode" (triggerSave)="saveData()"></app-skills>
-                    }
-                </div>
+                
             </div>
-    
+            <div class="column">
+                <mat-card-title class="resume-title">EDUCATION<div class="add-button noprint">
+                    </div>
+                </mat-card-title>
+                @for (acExp of user.academicExperiences; track $index) {
+                    <app-experience [experience]="acExp" [editmode]="editmode"></app-experience> 
+                }
+                <mat-card-title class="resume-title">SKILLS</mat-card-title>
+                @for (skill of user.skills; track $index) {
+                    <app-skills [skill]="skill" [editmode]="editmode" (triggerSave)="saveData()"></app-skills>
+                }
+            </div>
             <mat-card-actions class="align-right">
             </mat-card-actions>
             @if (export) {
