@@ -57,7 +57,7 @@ export class UserService {
           { field: 'InstitutionName', value: 'Punjab University Collge of Information Technology' },
           { field: 'Period', value: 'Nov 2020 - Jun 2024' },
           { field: 'DegreeAcquired', value: 'BS in Software Engineering' },
-          { field: 'Achievements', value: 'CGPA: 356.Awarded with scholorship due to academic excellence.Runner-up in coding competitions' }
+          { field: 'Achievements', value: 'Percentage: 89%.Awarded with scholorship due to academic excellence.Runner-up in coding competitions' }
 
         ],
         [
@@ -65,14 +65,14 @@ export class UserService {
           { field: 'InstitutionName', value: 'Punjab Group of Colleges' },
           { field: 'Period', value: 'Sep 2018 - Aug 2020' },
           { field: 'DegreeAcquired', value: 'FSc Pre-Engineering' },
-          { field: 'Achievements', value: 'Marks: 945/1100.Grades: A+. Got scholorship due to academic excellance' }
+          { field: 'Achievements', value: 'Percentage: 86%.Grades: A+. Got scholorship due to academic excellance' }
         ],
         [
           { field: 'InstitutionLogoUrl', value: 'https://gcmslowermall.edu.pk/images/logo2.jpg' },
           { field: 'InstitutionName', value: 'Central Model School Lower Mall' },
           { field: 'Period', value: 'March 2016 - Jun 2018' },
           { field: 'DegreeAcquired', value: 'Secondary School Certificate' },
-          { field: 'Achievements', value: 'Marks: 1041/1100.Grades: A+. Got scholorship due to academic excellance' }
+          { field: 'Achievements', value: 'Percentage: 95%.Grades: A+. Got scholorship due to academic excellance' }
         ]
       ],
       skills: [
