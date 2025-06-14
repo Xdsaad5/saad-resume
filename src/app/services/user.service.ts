@@ -25,14 +25,14 @@ export class UserService {
       workExperiences: [[
         { field: 'CompanyLogoUrl', value: 'assets/icons/ebryx.jpeg' },
         { field: 'CompanyName', value: 'Ebryx Pvt Limited' },
-        { field: 'Period', value: 'March 2025 - Present' },
+        { field: 'Period', value: 'Dec 2024 - Present' },
         { field: 'Position', value: 'Software Engineer' },
         { field: 'Achievements', value: 'Bug Fixes & Maintenance: Continuously working on identifying and resolving bugs in the project to ensure smooth functionality and optimal performance. Feature Implementation: Implementing new features based on evolving requirements, enhancing the overall functionality and user experience.Shell Scripting: Writing and maintaining shell scripts for automating repetitive tasks, improving deployment processes, and streamlining the workflow.Documentation: Updating and maintaining clear, concise documentation for developers and end-users, covering setup instructions, API details, and troubleshooting guides.Technology Stack: The project is built using Node.js and Express for the backend, Docker for containerization, MySQL for database management, and Angular for the frontend.Collaboration: Working closely with cross-functional teams to ensure smooth integration of new features, bug fixes, and seamless communication between the backend and frontend' }
       ],
       [
         { field: 'CompanyLogoUrl', value: 'assets/icons/devsinc.png' },
         { field: 'CompanyName', value: 'Devsinc' },
-        { field: 'Period', value: 'June 2024 - Feb 2025' },
+        { field: 'Period', value: 'May 2024 - Nov 2024' },
         { field: 'Position', value: 'Associate Software Engineer' },
         { field: 'Achievements', value: 'Developed and maintained web applications using ASP DOTNET, actively participating in the entire Software Development Life Cycle (SDLC), from Analysis and Design to Implementation, Testing, and Maintenance.Responsible for bug fixes and implementing new features.Scheduled AWS Lambda functions and implemented cron job schedules.Conducted load testing on Lambda functions to ensure performance and reliability.Collaborated with a team of developers and used Git/GitHub for version control.Ensured high performance and code reusability.Applied the Single Responsibility Principle to enhance code quality.Prepared test cases and conducted unit testing.Wrote SQL migrations for DOTNET production web applications to ensure seamless cross-platform functionality.Resolved production issues using debugging and problem-solving skills.Worked with Microsoft Azure SQL Database.Addressed support issues as they arose, solving them in both the database and code.Used Microsoft Azure ETL services for data engineering.Demonstrated proficiency in C#, VB DOTNET, ASP DOTNET, ASPDOTNET Windows Forms, DOTNET Framework, DOTNET Core, Object-Oriented Programming (OOP), Stored Procedures, Views, Database Optimization, and Microsoft Azure' }
       ],
